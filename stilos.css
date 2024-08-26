@@ -1,0 +1,139 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    background-color: black;
+    font-family: cursive;
+}
+
+
+
+header{
+    display:flex;
+    background: linear-gradient(rgb(60, 48, 60),transparent);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logotipo{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    color: antiquewhite;
+    
+     
+}
+ 
+.logotipo img{
+    height:5cm;
+    border-radius: 5cm;
+    margin-right: 5%;
+    padding: 20%;
+    font-size:20px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+    font-weight: 500;
+    padding-right: 15px;
+    font-size: 20px;
+    background: linear-gradient(rgb(60, 48, 60),transparent);
+}
+
+nav{
+    font-weight: 700px;
+    padding-right: 5cm;
+
+}
+
+.sidebar{
+    text-align: end;
+   
+}
+
+#contenedor-principal{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.maincontent{
+    color: rgb(181, 134, 201);
+    margin: 1%;
+    position: relative;
+    bottom: 100px;
+    position: static;
+    font-size: 150%;
+
+    padding: 5cm;
+}
+
+img{
+  padding: 20px;
+  align-items: end;
+}
+
+#matching{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin: 10px;
+    background: linear-gradient(to right, rgb(48, 23, 23),transparent ,rgb(40, 34, 13));
+}
+ 
+.contenidos  {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.left{
+    display: flex;
+    flex-direction: row;
+    font-size:20px;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fila{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.finish{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(78, 29, 14);
+    margin-left: auto;
+    align-items: center;
+    background: linear-gradient(transparent ,rgb(36, 15, 15));
+}
+
+
+
+input{
+    background-color: rgb(36, 15, 15);
+    margin-left: 2cm;
+    align-items: center;
+    margin: 20px;
+    padding: 2%;
+    color: beige;
+
+    
+}
